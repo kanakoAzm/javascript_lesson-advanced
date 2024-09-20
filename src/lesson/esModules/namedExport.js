@@ -1,11 +1,12 @@
 // ここにコードを書きながら確認しましょう！
 
+// const hoge = 'hoge';
 
+// export function testFn(text) {
+//   return `Hello ${text}`;
+// };
 
-
-
-
-
+// export { hoge };
 
 
 
@@ -13,10 +14,10 @@
 
 // 練習問題
 // 問題 1
-const nameFn = () => {
+export const nameFn = () => {
   return 'Gizumo taro';
 };
 
-const calcFn = (num) => {
+export const calcFn = (num) => {
   return num * 10;
 };
